@@ -1,0 +1,165 @@
+
+{
+    "app.title": "استاد کوئیز",
+    "app.newQuizzes": "کوئیزهای جدید دانلود و آماده شدند!",
+    "app.loadingProfile": "در حال بارگذاری پروفایل...",
+    "header.back": "بازگشت",
+    "header.toggleSound.on": "قطع صدا",
+    "header.toggleSound.off": "وصل صدا",
+    "header.profile": "باز کردن پروفایل کاربر",
+    "home.welcome": "به استاد کوئیز خوش آمدید",
+    "home.description": "کوئیزهای نامحدود مبتنی بر هوش مصنوعی را کاوش کنید. موضوع خود را انتخاب کنید، سختی را انتخاب کنید و پیشرفت خود را در زمان واقعی پیگیری کنید!",
+    "home.start": "شروع کوئیز جدید",
+    "home.start.desc": "وارد یک چالش جدید شوید. یک دسته بندی انتخاب کنید و دانش خود را بسنجید.",
+    "home.start.cta": "بزن بریم!",
+    "home.history": "مشاهده تاریخچه",
+    "home.leaderboard": "جدول امتیازات",
+    "home.highScores": "امتیازات برتر",
+    "home.viewAnalytics": "مشاهده تحلیل عملکرد",
+    "category.title": "یک دسته بندی انتخاب کنید",
+    "category.subtitle": "امروز می خواهید دانش خود را در چه زمینه ای بسنجید؟",
+    "category.search": "جستجو برای یک دسته بندی...",
+    "category.noResults": "هیچ دسته بندی یافت نشد.",
+    "quizSetup.title": "تنظیمات کوئیز",
+    "quizSetup.category": "دسته بندی",
+    "quizSetup.numQuestions": "تعداد سوالات",
+    "quizSetup.options": "گزینه ها",
+    "quizSetup.difficulty": "سختی",
+    "quizSetup.difficulty.easy": "آسان",
+    "quizSetup.difficulty.easy.desc": "سرعتی آرام برای مبتدیان.",
+    "quizSetup.difficulty.medium": "متوسط",
+    "quizSetup.difficulty.medium.desc": "چالشی متعادل برای اکثر بازیکنان.",
+    "quizSetup.difficulty.hard": "سخت",
+    "quizSetup.difficulty.hard.desc": "برای متخصصانی که به دنبال یک آزمون سخت هستند.",
+    "quizSetup.timePerQuestion": "زمان برای هر سوال ⏱",
+    "quizSetup.noTimeLimit": "بدون محدودیت",
+    "quizSetup.timed": "زمان دار",
+    "quizSetup.duration": "مدت زمان",
+    "quizSetup.start": "شروع کوئیز",
+    "quizSetup.loading": "در حال ایجاد...",
+    "quizSetup.loading.title": "در حال ایجاد کوئیز شما...",
+    "quizSetup.loading.message1": "گرم کردن مغز هوش مصنوعی... 🧠",
+    "quizSetup.loading.message2": "جستجو در اعماق دانش...",
+    "quizSetup.loading.message3": "ایجاد گزینه‌های انحرافی چالش‌برانگیز...",
+    "quizSetup.loading.message4": "ترجمه همه چیز برای شما...",
+    "quizSetup.loading.message5": "پرداخت نهایی سوال...",
+    "quizSetup.loading.preparing": "در حال آماده سازی کوئیز شما...",
+    "quizSetup.loading.generatingQuestion": "در حال ایجاد سوال",
+    "quizSetup.loading.finalizing": "در حال نهایی کردن سوالات...",
+    "quizSetup.error.title": "ایجاد کوئیز ناموفق بود",
+    "quizSetup.error.dismiss": "نادیده گرفتن",
+    "quiz.question": "سوال",
+    "quiz.score": "امتیاز",
+    "quiz.skip": "رد کردن",
+    "quiz.skipsLeft": "مانده",
+    "quiz.bonusQuestionsAdded": "سوالات جایزه اضافه شد!",
+    "results.title": "کوئیز کامل شد!",
+    "results.score": "امتیاز شما",
+    "results.playAgain": "دوباره بازی کنید",
+    "results.goHome": "رفتن به صفحه اصلی",
+    "results.saveScore": "ذخیره امتیاز",
+    "results.retryLast": "تلاش مجدد برای آخرین غلط",
+    "results.review": "پاسخ های خود را مرور کنید",
+    "results.yourAnswer": "پاسخ شما",
+    "results.correctAnswer": "پاسخ صحیح",
+    "results.notAnswered": "پاسخ داده نشده",
+    "results.feedback.great": "کار عالی!",
+    "results.feedback.good": "تلاش خوبی بود!",
+    "results.feedback.practice": "به تمرین ادامه دهید!",
+    "retry.title": "شانس دوم!",
+    "history.title": "تاریخچه کوئیز",
+    "history.noResults": "شما هنوز هیچ کوئیزی را تکمیل نکرده اید.",
+    "history.back": "بازگشت",
+    "history.clear": "پاک کردن تاریخچه",
+    "leaderboard.title": "جدول امتیازات",
+    "leaderboard.noScores": "هنوز هیچ امتیاز بالایی ثبت نشده است.",
+    "leaderboard.noScoresForFilter": "امتیازی برای فیلترهای انتخاب شده یافت نشد.",
+    "leaderboard.filterByCategory": "فیلتر بر اساس دسته بندی",
+    "leaderboard.filterByDifficulty": "فیلتر بر اساس سختی",
+    "leaderboard.allCategories": "همه دسته بندی ها",
+    "leaderboard.allDifficulties": "همه سختی ها",
+    "leaderboard.score": "امتیاز",
+    "leaderboard.percentage": "درصد",
+    "leaderboard.back": "بازگشت",
+    "leaderboard.filter.all": "همه",
+    "leaderboard.filter.easy": "آسان",
+    "leaderboard.filter.medium": "متوسط",
+    "leaderboard.filter.hard": "سخت",
+    "leaderboard.yourRank": "بهترین رتبه شما",
+    "leaderboard.notRanked": "با این تنظیمات یک کوئیز بازی کنید تا وارد جدول شوید!",
+    "leaderboard.you": "شما",
+    "leaderboard.empty.title": "اولین نفر باشید!",
+    "leaderboard.empty.description": "هنوز امتیازی برای این فیلترها ثبت نشده است. یک کوئیز بازی کنید و جایگاه برتر را از آن خود کنید!",
+    "saveScore.title": "امتیاز بالای خود را ذخیره کنید",
+    "saveScore.yourScore": "امتیاز شما",
+    "saveScore.enterName": "نام خود را وارد کنید",
+    "saveScore.save": "ذخیره امتیاز",
+    "profile.title": "ویرایش پروفایل شما",
+    "profile.username": "نام نمایشی",
+    "profile.username.placeholder": "نام نمایشی خود را وارد کنید",
+    "profile.avatar": "آواتار",
+    "profile.avatar.select": "یا یک ایموجی انتخاب کنید",
+    "profile.changeAvatar": "تغییر آواتار",
+    "profile.themeColor": "رنگ تم",
+    "profile.save": "ذخیره پروفایل",
+    "profile.saved": "پروفایل با موفقیت ذخیره شد!",
+    "profile.section.identity": "هویت",
+    "profile.section.preferences": "تنظیمات",
+    "profile.section.progression": "پیشرفت",
+    "profile.level": "سطح",
+    "profile.totalXp": "XP کل",
+    "profile.toNextLevel": "تا بعدی",
+    "profile.maxLevel": "به سطح حداکثر رسیدید",
+    "profile.levelUp": "ارتقاء سطح",
+    "profile.xpGained": "XP کسب شده",
+    "profile.widget.ariaLabel": "مشاهده و ویرایش پروفایل شما",
+    "profile.widget.viewProfile": "مشاهده پروفایل",
+    "profile.photo.editTitle": "تنظیم عکس",
+    "profile.photo.preview": "پیش نمایش عکس",
+    "profile.photo.zoom": "بزرگنمایی",
+    "profile.photo.save": "ذخیره عکس",
+    "profile.photo.cancel": "لغو",
+    "profile.photo.choose": "انتخاب عکس",
+    "language.title": "انتخاب زبان",
+    "language.search": "جستجوی یک زبان...",
+    "analytics.title": "تحلیل عملکرد",
+    "analytics.totalPlays": "مجموع کوئیزهای بازی شده",
+    "analytics.avgScore": "میانگین امتیاز",
+    "analytics.mostPlayed": "پربازدیدترین دسته",
+    "analytics.byCategory": "عملکرد بر اساس دسته",
+    "analytics.category": "دسته",
+    "analytics.plays": "بازی‌ها",
+    "analytics.score": "میانگین امتیاز",
+    "analytics.noData": "هنوز داده تحلیلی موجود نیست. برای دیدن آمار خود چند کوئیز بازی کنید!",
+    "analytics.clear": "پاک کردن داده‌های تحلیلی",
+    "analytics.clear.confirm": "آیا مطمئن هستید که می‌خواهید تمام داده‌های عملکرد خود را حذف کنید؟ این عمل قابل بازگشت نیست.",
+    "category.animals": "حیوانات",
+    "category.art": "هنر",
+    "category.architecture": "معماری",
+    "category.businessAndFinance": "کسب و کار و امور مالی",
+    "category.comics": "کمیک",
+    "category.foodAndDrink": "غذا و نوشیدنی",
+    "category.generalKnowledge": "اطلاعات عمومی",
+    "category.geography": "جغرافیا",
+    "category.healthAndMedicine": "بهداشت و پزشکی",
+    "category.history": "تاریخ",
+    "category.islamReligion": "دین اسلام",
+    "category.literature": "ادبیات",
+    "category.mathematics": "ریاضیات",
+    "category.movies": "فیلم‌ها",
+    "category.music": "موسیقی",
+    "category.mythology": "اسطوره‌شناسی",
+    "category.philosophy": "فلسفه",
+    "category.politics": "سیاست",
+    "category.scienceAndNature": "علم و طبیعت",
+    "category.sports": "ورزش",
+    "category.technology": "فناوری",
+    "category.television": "تلویزیون",
+    "category.videoGames": "بازی‌های ویدیویی",
+    "category.worldReligions": "ادیان جهان",
+    "category.astronomy": "ستاره شناسی",
+    "category.inventions": "اختراعات",
+    "category.worldCuisine": "آشپزی جهان",
+    "category.famousLandmarks": "مکان های دیدنی معروف",
+    "category.programming": "برنامه نویسی"
+}

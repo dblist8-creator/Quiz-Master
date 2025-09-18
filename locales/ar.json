@@ -1,0 +1,165 @@
+
+{
+    "app.title": "خبير الاختبارات",
+    "app.newQuizzes": "تم تنزيل اختبارات جديدة وهي جاهزة!",
+    "app.loadingProfile": "جاري تحميل الملف الشخصي...",
+    "header.back": "رجوع",
+    "header.toggleSound.on": "كتم الصوت",
+    "header.toggleSound.off": "إلغاء كتم الصوت",
+    "header.profile": "فتح ملف المستخدم",
+    "home.welcome": "مرحباً بك في خبير الاختبارات",
+    "home.description": "استكشف اختبارات غير محدودة مدعومة بالذكاء الاصطناعي. اختر موضوعك، وحدد مستوى الصعوبة، وتتبع تقدمك في الوقت الفعلي!",
+    "home.start": "بدء اختبار جديد",
+    "home.start.desc": "اقفز إلى تحدٍ جديد. اختر فئة واختبر معلوماتك.",
+    "home.start.cta": "لنبدأ!",
+    "home.history": "عرض السجل",
+    "home.leaderboard": "لوحة المتصدرين",
+    "home.highScores": "أعلى الدرجات",
+    "home.viewAnalytics": "عرض تحليلات الأداء",
+    "category.title": "اختر فئة",
+    "category.subtitle": "ماذا تريد أن تختبر معلوماتك فيه اليوم؟",
+    "category.search": "ابحث عن فئة...",
+    "category.noResults": "لم يتم العثور على فئات.",
+    "quizSetup.title": "إعداد الاختبار",
+    "quizSetup.category": "الفئة",
+    "quizSetup.numQuestions": "عدد الأسئلة",
+    "quizSetup.options": "خيارات",
+    "quizSetup.difficulty": "مستوى الصعوبة",
+    "quizSetup.difficulty.easy": "سهل",
+    "quizSetup.difficulty.easy.desc": "وتيرة مريحة للمبتدئين.",
+    "quizSetup.difficulty.medium": "متوسط",
+    "quizSetup.difficulty.medium.desc": "تحد متوازن لمعظم اللاعبين.",
+    "quizSetup.difficulty.hard": "صعب",
+    "quizSetup.difficulty.hard.desc": "للخبراء الباحثين عن اختبار صعب.",
+    "quizSetup.timePerQuestion": "الوقت لكل سؤال ⏱",
+    "quizSetup.noTimeLimit": "بلا حدود",
+    "quizSetup.timed": "موقوت",
+    "quizSetup.duration": "المدة",
+    "quizSetup.start": "بدء الاختبار",
+    "quizSetup.loading": "جاري الإنشاء...",
+    "quizSetup.loading.title": "جاري إنشاء اختبارك...",
+    "quizSetup.loading.message1": "تسخين دماغ الذكاء الاصطناعي... 🧠",
+    "quizSetup.loading.message2": "البحث في أعماق المعرفة...",
+    "quizSetup.loading.message3": "صياغة مشتتات صعبة...",
+    "quizSetup.loading.message4": "ترجمة كل شيء من أجلك...",
+    "quizSetup.loading.message5": "صقل السؤال النهائي...",
+    "quizSetup.loading.preparing": "جارٍ تحضير اختبارك...",
+    "quizSetup.loading.generatingQuestion": "جارٍ إنشاء السؤال",
+    "quizSetup.loading.finalizing": "جارٍ وضع اللمسات الأخيرة على الأسئلة...",
+    "quizSetup.error.title": "فشل إنشاء الاختبار",
+    "quizSetup.error.dismiss": "تجاهل",
+    "quiz.question": "سؤال",
+    "quiz.score": "النتيجة",
+    "quiz.skip": "تخطي",
+    "quiz.skipsLeft": "متبقي",
+    "quiz.bonusQuestionsAdded": "تمت إضافة أسئلة إضافية!",
+    "results.title": "اكتمل الاختبار!",
+    "results.score": "نتيجتك",
+    "results.playAgain": "العب مرة أخرى",
+    "results.goHome": "اذهب إلى الصفحة الرئيسية",
+    "results.saveScore": "حفظ النتيجة",
+    "results.retryLast": "إعادة المحاولة في آخر خطأ",
+    "results.review": "مراجعة إجاباتك",
+    "results.yourAnswer": "إجابتك",
+    "results.correctAnswer": "الإجابة الصحيحة",
+    "results.notAnswered": "لم تتم الإجابة",
+    "results.feedback.great": "عمل ممتاز!",
+    "results.feedback.good": "مجهود طيب!",
+    "results.feedback.practice": "استمر في التدريب!",
+    "retry.title": "فرصة ثانية!",
+    "history.title": "سجل الاختبارات",
+    "history.noResults": "لم تكمل أي اختبارات بعد.",
+    "history.back": "رجوع",
+    "history.clear": "مسح السجل",
+    "leaderboard.title": "لوحة المتصدرين",
+    "leaderboard.noScores": "لا توجد درجات عالية مسجلة بعد.",
+    "leaderboard.noScoresForFilter": "لم يتم العثور على درجات للمرشحات المحددة.",
+    "leaderboard.filterByCategory": "تصفية حسب الفئة",
+    "leaderboard.filterByDifficulty": "تصفية حسب الصعوبة",
+    "leaderboard.allCategories": "جميع الفئات",
+    "leaderboard.allDifficulties": "جميع الصعوبات",
+    "leaderboard.score": "النتيجة",
+    "leaderboard.percentage": "النسبة المئوية",
+    "leaderboard.back": "رجوع",
+    "leaderboard.filter.all": "الكل",
+    "leaderboard.filter.easy": "سهل",
+    "leaderboard.filter.medium": "متوسط",
+    "leaderboard.filter.hard": "صعب",
+    "leaderboard.yourRank": "أفضل ترتيب لك",
+    "leaderboard.notRanked": "العب اختبارًا بهذه الإعدادات للدخول في لوحة المتصدرين!",
+    "leaderboard.you": "أنت",
+    "leaderboard.empty.title": "كن الأول!",
+    "leaderboard.empty.description": "لم يتم تسجيل أي درجات لهذه الفلاتر حتى الآن. العب اختبارًا واحصل على المركز الأول!",
+    "saveScore.title": "احفظ نتيجتك العالية",
+    "saveScore.yourScore": "نتيجتك",
+    "saveScore.enterName": "أدخل اسمك",
+    "saveScore.save": "حفظ النتيجة",
+    "profile.title": "تعديل ملفك الشخصي",
+    "profile.username": "اسم العرض",
+    "profile.username.placeholder": "أدخل اسم العرض الخاص بك",
+    "profile.avatar": "الصورة الرمزية",
+    "profile.avatar.select": "أو اختر رمزًا تعبيريًا",
+    "profile.changeAvatar": "تغيير الصورة الرمزية",
+    "profile.themeColor": "لون السمة",
+    "profile.save": "حفظ الملف الشخصي",
+    "profile.saved": "تم حفظ الملف الشخصي بنجاح!",
+    "profile.section.identity": "الهوية",
+    "profile.section.preferences": "التفضيلات",
+    "profile.section.progression": "التقدم",
+    "profile.level": "المستوى",
+    "profile.totalXp": "إجمالي XP",
+    "profile.toNextLevel": "للمستوى التالي",
+    "profile.maxLevel": "تم الوصول إلى المستوى الأقصى",
+    "profile.levelUp": "ارتفع مستواك",
+    "profile.xpGained": "الخبرة المكتسبة",
+    "profile.widget.ariaLabel": "عرض وتعديل ملفك الشخصي",
+    "profile.widget.viewProfile": "عرض الملف الشخصي",
+    "profile.photo.editTitle": "تعديل الصورة",
+    "profile.photo.preview": "معاينة الصورة",
+    "profile.photo.zoom": "تكبير/تصغير",
+    "profile.photo.save": "حفظ الصورة",
+    "profile.photo.cancel": "إلغاء",
+    "profile.photo.choose": "اختيار صورة",
+    "language.title": "اختار اللغة",
+    "language.search": "ابحث عن لغة...",
+    "analytics.title": "تحليلات الأداء",
+    "analytics.totalPlays": "مجموع الاختبارات الملعوبة",
+    "analytics.avgScore": "متوسط ​​الدرجات",
+    "analytics.mostPlayed": "الفئة الأكثر لعبًا",
+    "analytics.byCategory": "الأداء حسب الفئة",
+    "analytics.category": "الفئة",
+    "analytics.plays": "مرات اللعب",
+    "analytics.score": "متوسط ​​الدرجة",
+    "analytics.noData": "لا توجد بيانات تحليلية متاحة حتى الآن. العب بعض الاختبارات لرؤية إحصائياتك!",
+    "analytics.clear": "مسح بيانات التحليلات",
+    "analytics.clear.confirm": "هل أنت متأكد من أنك تريد حذف جميع بيانات أدائك؟ لا يمكن التراجع عن هذا الإجراء.",
+    "category.animals": "حيوانات",
+    "category.art": "فن",
+    "category.architecture": "هندسة معمارية",
+    "category.businessAndFinance": "أعمال ومالية",
+    "category.comics": "كوميكس",
+    "category.foodAndDrink": "طعام وشراب",
+    "category.generalKnowledge": "معلومات عامة",
+    "category.geography": "جغرافيا",
+    "category.healthAndMedicine": "صحة وطب",
+    "category.history": "تاريخ",
+    "category.islamReligion": "دين إسلامي",
+    "category.literature": "أدب",
+    "category.mathematics": "رياضيات",
+    "category.movies": "أفلام",
+    "category.music": "موسيقى",
+    "category.mythology": "أساطير",
+    "category.philosophy": "فلسفة",
+    "category.politics": "سياسة",
+    "category.scienceAndNature": "علوم وطبيعة",
+    "category.sports": "رياضة",
+    "category.technology": "تقنية",
+    "category.television": "تلفزيون",
+    "category.videoGames": "ألعاب الفيديو",
+    "category.worldReligions": "أديان العالم",
+    "category.astronomy": "علم الفلك",
+    "category.inventions": "الاختراعات",
+    "category.worldCuisine": "المطبخ العالمي",
+    "category.famousLandmarks": "معالم شهيرة",
+    "category.programming": "البرمجة"
+}

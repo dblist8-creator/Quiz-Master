@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUIZ MASTER</title>
+    <style>
+      :root {
+        --color-primary: #259cfb; /* Default theme color, will be overridden by user preference */
+      }
+      body {
+          transition: background-color 0.3s ease-in-out;
+      }
+      .light {
+          background-color: #f0f4f8;
+          background-image: radial-gradient(circle at 100% 0%, #dbeafe 0%, transparent 40%),
+                            radial-gradient(circle at 0% 100%, #e0f2fe 0%, transparent 35%);
+      }
+      .dark {
+          background-color: #0d1117;
+          background-image: radial-gradient(circle at 100% 0%, rgba(37, 156, 251, 0.1) 0%, transparent S30%),
+                            radial-gradient(circle at 0% 100%, rgba(138, 92, 255, 0.1) 0%, transparent 25%);
+      }
+      /* Custom Scrollbar Styling */
+      /* For Webkit-based browsers (Chrome, Safari, Edge) */
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: var(--color-primary);
+        border-radius: 10px;
+        border: 2px solid transparent;
+        background-clip: content-box;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        /* Use a function to darken the primary color on hover, if supported */
+        background-color: color-mix(in srgb, var(--color-primary) 80%, black);
+      }
+
+      /* For Firefox */
+      .custom-scrollbar {
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-primary) transparent;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--color-primary)',
+              'neon-cyan': '#00D1FF',
+              'neon-violet': '#8A5CFF',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeOut: {
+                'from': { opacity: '1' },
+                'to': { opacity: '0' },
+              },
+              slideInRight: {
+                  '0%': { opacity: '0', transform: 'translateX(30px)' },
+                  '100%': { opacity: '1', transform: 'translateX(0)' },
+              },
+              slideOutLeft: {
+                  '0%': { opacity: '1', transform: 'translateX(0)' },
+                  '100%': { opacity: '0', transform: 'translateX(-30px)' },
+              },
+              pulse: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '.5' },
+              },
+              shake: {
+                '10%, 90%': { transform: 'translate3d(-1px, 0, 0)' },
+                '20%, 80%': { transform: 'translate3d(2px, 0, 0)' },
+                '30%, 50%, 70%': { transform: 'translate3d(-4px, 0, 0)' },
+                '40%, 60%': { transform: 'translate3d(4px, 0, 0)' },
+              },
+               'shake-error': {
+                '0%, 100%': { transform: 'translateX(0)' },
+                '10%, 30%, 50%, 70%, 90%': { transform: 'translateX(-5px)' },
+                '20%, 40%, 60%, 80%': { transform: 'translateX(5px)' },
+              },
+              gentleShake: {
+                '0%, 100%': { transform: 'translateX(0)' },
+                '20%, 60%': { transform: 'translateX(-4px)' },
+                '40%, 80%': { transform: 'translateX(4px)' },
+              },
+              tada: {
+                '0%': { transform: 'scale3d(1, 1, 1)' },
+                '10%, 20%': { transform: 'scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg)' },
+                '30%, 50%, 70%, 90%': { transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)' },
+                '40%, 60%, 80%': { transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)' },
+                '100%': { transform: 'scale3d(1, 1, 1)' },
+              },
+              'neon-glow-cyan': {
+                '0%, 100%': { 'box-shadow': '0 0 2px #00D1FF, 0 0 5px #00D1FF, 0 0 10px #00D1FF' },
+                '50%': { 'box-shadow': '0 0 5px #00D1FF, 0 0 15px #00D1FF, 0 0 25px #00D1FF' },
+              },
+              'neon-glow-violet': {
+                '0%, 100%': { 'box-shadow': '0 0 2px #8A5CFF, 0 0 5px #8A5CFF, 0 0 10px #8A5CFF' },
+                '50%': { 'box-shadow': '0 0 5px #8A5CFF, 0 0 15px #8A5CFF, 0 0 25px #8A5CFF' },
+              },
+               'pulse-success': {
+                '0%': { transform: 'scale(1)', 'box-shadow': '0 0 0 0 rgba(4, 211, 97, 0.7)' },
+                '70%': { transform: 'scale(1.1)', 'box-shadow': '0 0 0 10px rgba(4, 211, 97, 0)' },
+                '100%': { transform: 'scale(1)', 'box-shadow': '0 0 0 0 rgba(4, 211, 97, 0)' },
+              }
+            },
+            animation: {
+              fadeIn: 'fadeIn 0.4s ease-out forwards',
+              fadeInUp: 'fadeInUp 0.4s ease-out forwards',
+              fadeOut: 'fadeOut 0.4s ease-in forwards',
+              slideInRight: 'slideInRight 0.4s ease-out forwards',
+              slideOutLeft: 'slideOutLeft 0.4s ease-in forwards',
+              pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              shake: 'shake 0.82s cubic-bezier(.36,.07,.19,.97) both',
+              'shake-error': 'shake-error 0.5s ease-in-out both',
+              gentleShake: 'gentleShake 0.6s cubic-bezier(.36,.07,.19,.97) both',
+              tada: 'tada 0.8s ease-in-out',
+              'neon-glow-cyan': 'neon-glow-cyan 1.5s ease-in-out infinite alternate',
+              'neon-glow-violet': 'neon-glow-violet 1.5s ease-in-out infinite alternate',
+              'pulse-success': 'pulse-success 1s ease-in-out',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.2.1/"
+  }
+}
+</script>
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

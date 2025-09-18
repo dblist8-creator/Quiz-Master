@@ -1,0 +1,5 @@
+{
+  "name": "Quiz Master",
+  "description": "An advanced quiz application powered by Google's Gemini API to generate unique questions on various topics. Features include different categories, difficulty levels, a timed mode, and a clean, modern interface with light/dark modes.",
+  "requestFramePermissions": []
+}
